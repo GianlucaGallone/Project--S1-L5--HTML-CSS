@@ -1,3 +1,153 @@
+html {
+    text-align: center;
+    background-color: white;
+}
+
+/* ----------------- Body -------------------- */
+
 body {
-    background-color: aquamarine;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    color: #393d41;
+}
+
+body h1, h2 { 
+    font-family: 'Montserrat', sans-serif;
+    color: #25a2c3;
+    line-height: 1.50;
+}
+
+/* ----------------- Header -------------------- */
+
+header #logo {
+    background-color: black;
+    padding: 50px 0;/* margin can't colour empty spaces */
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30%;
+}
+
+header #introduction {
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px;
+}
+
+#introduction h1 {
+    font-size: 2em;
+    line-height: 1;
+    padding-bottom: 20px;
+}
+
+#introduction p {
+    padding-bottom: 30px;
+}
+
+#introduction p[title="button"]{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background: #f04c2f;
+	border-radius: 5px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 15px 30px;
+    font-weight: bold;
+}
+
+/* ----------------- Main -------------------- */
+/* ------- Sector 1 ---------- */
+
+.sector-1{
+    padding: 50px;
+}
+.sector-1 h2 {
+    line-height: 2;
+}
+.sector-1 img {
+    border-radius: 50%;
+    padding: 15px 0;
+}
+/* ------- Sector 2 ---------- */
+
+.sector-2 {/* Epicode garantisce */
+    color: white;
+    background-color: rgb(217, 54, 56);
+    display: inline-block;
+    padding: 50px 30px;/* margin can't colour empty spaces */
+    background-position: center;
+}
+.sector-2 p[title="heading"]{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: 1.8em;
+}
+.sector-2 h3[title="cit"]{
+    font-style: italic;
+}
+.sector-2 h3[title="name"]{
+    font-size: 1.5em;
+}
+.sector-2 h3[title="position"]{
+    font-size: 1em;
+}
+/* ------- Sector 3 ---------- */
+
+/* images inside tables */ 
+.sector-3 .box-1,
+.sector-3 .box-2,
+.sector-3 .box-3 {
+    padding-bottom: 40px;
+    font-size: 0.8em;
+    margin: auto;
+    width: 80%;
+    height: 80%;
+}
+.sector-3 .box-1 {
+    padding-top: 50px;
+}
+.sector-3 .box-3 {
+    padding-bottom: 60px;
+}
+.sector-3 p {
+    line-height: 1.5;
+}
+.sector-3 table {
+    border-collapse: collapse;
+    text-align: center;
+  }
+/* text inside tables */ 
+.sector-3 td {
+    padding: 40px 0px;
+    border: 1px solid #dee1e3;
+    line-height: 1;
+}
+
+/* ----------------- Footer -------------------- */
+
+footer {
+    color: #c8e7f0;
+    background: #25a2c3;
+    padding: 40px 0 50px 0;
+}
+footer h1 {
+    color: white;
+    font-size: 1.8em;
+}
+footer a {
+    color: #c8e7f0
+}
+footer ul li i {
+    color: white;
+}
+footer hr[title="end-line"]{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+footer p {
+    font-size: 0.8em;
 }
